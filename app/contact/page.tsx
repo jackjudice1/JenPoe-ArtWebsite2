@@ -44,11 +44,8 @@ export default function ContactPage() {
               <a href={siteConfig.social.instagram} className="text-xs font-semibold text-lacquer hover:underline">
                 Instagram
               </a>
-              <a href={siteConfig.social.pinterest} className="text-xs font-semibold text-lacquer hover:underline">
-                Pinterest
-              </a>
-              <a href={siteConfig.social.tiktok} className="text-xs font-semibold text-lacquer hover:underline">
-                TikTok
+              <a href={siteConfig.social.facebook} className="text-xs font-semibold text-lacquer hover:underline">
+                Facebook
               </a>
             </div>
           </div>
