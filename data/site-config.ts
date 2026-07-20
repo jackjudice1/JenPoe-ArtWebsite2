@@ -7,11 +7,11 @@ export const siteConfig = {
     shortName: "Jen Poe",
     tagline: "Original art and hand-finished mahjong mats, made to be lived with.",
     description:
-      "Lacquer & Ivory is a small studio making premium art prints and custom mahjong mats — bold color, real materials, no two runs quite the same.",
+      "Art by Jen Poe is a small studio making premium art prints and custom mahjong mats — bold color, real materials, no two runs quite the same.",
   },
   business: {
-    email: "hello@lacquerandivory.com",
-    supportEmail: "support@lacquerandivory.com",
+    email: "jackjudice1@gmail.com",
+    supportEmail: "jackjudice1@gmail.com",
     phone: "+1 (504) 555-0148",
     address: "New Orleans, LA",
     responseTime: "We reply to every message within 1–2 business days.",
