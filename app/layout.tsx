@@ -28,7 +28,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.lacquerandivory.com"),
+  metadataBase: new URL("https://artbyjenpoe.vercel.app"),
   title: {
     default: `${siteConfig.brand.name} — ${siteConfig.brand.tagline}`,
     template: `%s — ${siteConfig.brand.name}`,

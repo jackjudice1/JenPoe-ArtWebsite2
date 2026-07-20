@@ -4,7 +4,7 @@ import AnimatedReveal from "@/components/AnimatedReveal";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "The studio and story behind Lacquer & Ivory.",
+  description: "The studio and story behind Art by Jen Poe.",
 };
 
 const process = [
@@ -43,7 +43,7 @@ export default function AboutPage() {
               Started at a kitchen table, still run that way.
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-ink/70">
-              Lacquer & Ivory began as a series of paintings made between weekly mahjong nights
+              Art by Jen Poe began as a series of paintings made between weekly mahjong nights
               with friends in New Orleans. The prints came first, sold out of a market booth; the
               mats followed a year later after one too many friends asked where the tablecloth
               came from.

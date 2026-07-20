@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllProducts } from "@/lib/utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://www.lacquerandivory.com";
+  const base = "https://artbyjenpoe.vercel.app";
   const staticRoutes = ["", "/shop", "/art-prints", "/mahjong", "/about", "/contact"].map(
     (path) => ({
       url: `${base}${path}`,

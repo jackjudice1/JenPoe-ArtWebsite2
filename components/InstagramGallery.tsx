@@ -3,12 +3,12 @@ import { siteConfig } from "@/data/site-config";
 import AnimatedReveal from "./AnimatedReveal";
 
 const shots = [
-  "https://www.instagram.com/p/Da5QRkOso_6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  "https://www.instagram.com/p/Da0FdxHMdfL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  "https://www.instagram.com/p/Daz_8Y1M-T-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  "https://www.instagram.com/p/DZqWqe1TUVC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  "https://www.instagram.com/p/DZpZgDVsNSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  "https://www.instagram.com/p/DTrH6RtFCc6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "/images/instagram/office-confetti-painting.png",
+  "/images/instagram/mahjong-mat-styled.png",
+  "/images/instagram/bluebird-painting-outdoors.png",
+  "/images/instagram/pink-abstract-outdoors.png",
+  "/images/instagram/forest-painting-entryway.png",
+  "/images/instagram/office-confetti-painting-2.png",
 ];
 
 export default function InstagramGallery() {
@@ -36,7 +36,7 @@ export default function InstagramGallery() {
           >
             <Image
               src={src}
-              alt="Lacquer & Ivory artwork and mahjong mats in customer homes"
+              alt="Art by Jen Poe artwork and mahjong mats in customer homes"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-110"
               sizes="(min-width: 768px) 16vw, 30vw"

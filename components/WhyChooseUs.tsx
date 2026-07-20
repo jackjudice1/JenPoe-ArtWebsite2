@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
     <section className="bg-parchment">
       <div className="mx-auto max-w-content px-5 py-20 sm:px-8">
         <AnimatedReveal className="max-w-xl">
-          <p className="eyebrow">Why Lacquer & Ivory</p>
+          <p className="eyebrow">Why Art by Jen Poe</p>
           <h2 className="mt-3 font-display text-4xl leading-tight">Made slower, on purpose.</h2>
         </AnimatedReveal>
 

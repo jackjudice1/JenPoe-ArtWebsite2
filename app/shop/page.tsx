@@ -5,7 +5,7 @@ import ShopClient from "@/components/ShopClient";
 
 export const metadata: Metadata = {
   title: "Shop All",
-  description: "Browse every art print and mahjong mat from Lacquer & Ivory.",
+  description: "Browse every art print and mahjong mat from Art by Jen Poe.",
 };
 
 export default function ShopPage() {
