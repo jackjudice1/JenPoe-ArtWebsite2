@@ -12,14 +12,13 @@ export const siteConfig = {
   business: {
     email: "jackjudice1@gmail.com",
     supportEmail: "jackjudice1@gmail.com",
-    phone: "+1 (504) 555-0148",
-    address: "New Orleans, LA",
+    phone: "+1 (225) 247-4151",
+    address: "Baton Rouge, LA",
     responseTime: "We reply to every message within 1–2 business days.",
   },
   social: {
     instagram: "https://www.instagram.com/jenniferpoeartist",
-    pinterest: "https://pinterest.com/lacquerandivory",
-    tiktok: "https://tiktok.com/@lacquerandivory",
+    facebook: "https://www.facebook.com/www.jenniferpoe.net/",
   },
   nav: [
     { label: "Shop All", href: "/shop" },
@@ -47,7 +46,7 @@ export const siteConfig = {
     ],
   },
   hero: {
-    eyebrow: "New Orleans studio, worldwide shipping",
+    eyebrow: "Baton Rouge studio, worldwide shipping",
     headline: "Art for your walls. Tiles for your table.",
     body:
       "We paint in small batches and print even smaller ones — then take the same palette to the mahjong table with mats cut, bound, and stitched by hand.",
