@@ -14,7 +14,7 @@ const textures = [
   {
     title: "Soundproof core",
     body: "A 3mm neoprene core absorbs the click of tiles for late-night games in shared apartments.",
-    image: "https://images.unsplash.com/photo-1591873419446-8d09c1b0f3f7?q=80&w=900&auto=format&fit=crop",
+    image: "/images/instagram/mahjong-mat-styled.png",
   },
   {
     title: "Hand-stitched border",
