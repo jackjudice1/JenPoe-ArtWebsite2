@@ -6,7 +6,7 @@ Next.js 14 (App Router), TypeScript, Tailwind CSS, and Framer Motion.
 ## Brand
 
 - **Name:** Art by Jen Poe
-- **Palette:** Ivory `#F6F1E4`, Ink Navy `#16213A`, Jade `#1F6B54`, Lacquer Red `#C42B29`,
+- **Palette:** Ivory `#F6F1E4`, Ink Navy `#16213A`, Jade `#1F6B54`, Blossom Pink `#E8A0B4`,
   Gold `#C6A15B`, Plum `#5B3A5C`
 - **Type:** Fraunces (display) + Inter (body) + IBM Plex Mono (labels/prices)
 - **Signature element:** product cards are cut like mahjong tiles — flat base, rounded

@@ -28,7 +28,7 @@ export default function ProductCard({ product }: { product: Product }) {
             </span>
           )}
           {product.compareAtPrice && (
-            <span className="absolute left-3 top-3 rounded-full bg-lacquer px-2.5 py-1 font-mono text-[10px] uppercase tracking-wide text-ivory">
+            <span className="absolute left-3 top-3 rounded-full bg-lacquer px-2.5 py-1 font-mono text-[10px] uppercase tracking-wide text-ink">
               Sale
             </span>
           )}
@@ -43,10 +43,10 @@ export default function ProductCard({ product }: { product: Product }) {
             aria-label="Toggle favorite"
             className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-ivory/90 text-ink shadow-sm transition-transform hover:scale-105"
           >
-            <svg width="15" height="15" viewBox="0 0 24 24" fill={favorited ? "#C42B29" : "none"} aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill={favorited ? "#E8A0B4" : "none"} aria-hidden="true">
               <path
                 d="M12 20s-7-4.4-9.5-8.9C.7 7.6 2.4 4 6 4c2 0 3.5 1.1 4.4 2.4a5.3 5.3 0 0 1 3.2-2.4c3.6 0 5.3 3.6 3.5 7.1C19 15.6 12 20 12 20Z"
-                stroke={favorited ? "#C42B29" : "currentColor"}
+                stroke={favorited ? "#C15C7C" : "currentColor"}
                 strokeWidth="1.5"
               />
             </svg>
@@ -60,7 +60,7 @@ export default function ProductCard({ product }: { product: Product }) {
                 e.preventDefault();
                 addItem(product, product.variants?.[0]?.id);
               }}
-              className="w-full rounded-full bg-ink/90 py-2.5 font-body text-xs font-semibold tracking-wide text-ivory backdrop-blur transition-colors hover:bg-lacquer"
+              className="w-full rounded-full bg-ink/90 py-2.5 font-body text-xs font-semibold tracking-wide text-ivory backdrop-blur transition-colors hover:bg-lacquer hover:text-ink"
             >
               Quick add · {formatPrice(product.price)}
             </button>

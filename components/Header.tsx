@@ -49,7 +49,7 @@ export default function Header() {
               <path d="M9 8V6a3 3 0 0 1 6 0v2" stroke="currentColor" strokeWidth="1.6" />
             </svg>
             {itemCount > 0 && (
-              <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-lacquer px-1 font-mono text-[10px] text-ivory">
+              <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-lacquer px-1 font-mono text-[10px] text-ink">
                 {itemCount}
               </span>
             )}

@@ -15,8 +15,8 @@ const config: Config = {
         "ink-soft": "#28304A",
         jade: "#1F6B54",
         "jade-deep": "#154A3A",
-        lacquer: "#C42B29",
-        "lacquer-deep": "#9A211F",
+        lacquer: "#E8A0B4",
+        "lacquer-deep": "#C15C7C",
         gold: "#C6A15B",
         "gold-soft": "#E2C888",
         plum: "#5B3A5C"

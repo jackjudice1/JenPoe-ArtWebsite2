@@ -73,7 +73,7 @@ body {
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center gap-2 rounded-full bg-lacquer px-7 py-3.5 font-body text-sm font-semibold tracking-wide text-ivory transition-all duration-200 hover:bg-lacquer-deep active:scale-[0.98];
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-lacquer px-7 py-3.5 font-body text-sm font-semibold tracking-wide text-ink transition-all duration-200 hover:bg-lacquer-deep active:scale-[0.98];
 }
 
 .btn-secondary {

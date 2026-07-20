@@ -82,10 +82,10 @@ export default function ProductActions({ product }: { product: Product }) {
           className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/20 hover:border-lacquer"
           aria-label="Toggle wishlist"
         >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill={wishlisted ? "#C42B29" : "none"}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill={wishlisted ? "#E8A0B4" : "none"}>
             <path
               d="M12 20s-7-4.4-9.5-8.9C.7 7.6 2.4 4 6 4c2 0 3.5 1.1 4.4 2.4a5.3 5.3 0 0 1 3.2-2.4c3.6 0 5.3 3.6 3.5 7.1C19 15.6 12 20 12 20Z"
-              stroke={wishlisted ? "#C42B29" : "currentColor"}
+              stroke={wishlisted ? "#C15C7C" : "currentColor"}
               strokeWidth="1.5"
             />
           </svg>

@@ -17,7 +17,7 @@ export const siteConfig = {
     responseTime: "We reply to every message within 1–2 business days.",
   },
   social: {
-    instagram: "https://instagram.com/lacquerandivory",
+    instagram: "https://www.instagram.com/jenniferpoeartist",
     pinterest: "https://pinterest.com/lacquerandivory",
     tiktok: "https://tiktok.com/@lacquerandivory",
   },

@@ -108,7 +108,7 @@ export default function ContactForm() {
           outline: none;
         }
         .input:focus {
-          border-color: #c42b29;
+          border-color: #e8a0b4;
         }
       `}</style>
     </form>
