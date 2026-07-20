@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ivory text-ink font-body antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+::selection {
+  background: #c6a15b;
+  color: #16213a;
+}
+
+*:focus-visible {
+  outline: 2px solid #c6a15b;
+  outline-offset: 3px;
+}
+
+.eyebrow {
+  @apply font-mono text-[11px] uppercase tracking-[0.22em] text-lacquer;
+}
+
+.tile-grid-bg {
+  background-image: radial-gradient(circle, rgba(22, 33, 58, 0.08) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.tile-grid-bg-light {
+  background-image: radial-gradient(circle, rgba(246, 241, 228, 0.18) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+/* Signature "tile" card: mahjong-tile silhouette — flat sawn base, rounded
+   crown, a thin carved inset line, and a felt-drop shadow that lifts on
+   hover, the way a tile lifts off the table when you draw it. */
+.tile-card {
+  @apply relative bg-ivory rounded-tile shadow-tile transition-all duration-300 ease-out;
+  border: 1px solid rgba(22, 33, 58, 0.08);
+}
+
+.tile-card::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 2px 2px 16px 16px;
+  border: 1px solid rgba(22, 33, 58, 0.06);
+  pointer-events: none;
+}
+
+.tile-card:hover {
+  @apply shadow-tile-hover -translate-y-1.5;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-lacquer px-7 py-3.5 font-body text-sm font-semibold tracking-wide text-ivory transition-all duration-200 hover:bg-lacquer-deep active:scale-[0.98];
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink/20 bg-transparent px-7 py-3.5 font-body text-sm font-semibold tracking-wide text-ink transition-all duration-200 hover:border-ink hover:bg-ink hover:text-ivory active:scale-[0.98];
+}
+
+.btn-ghost-ivory {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-ivory/40 px-7 py-3.5 font-body text-sm font-semibold tracking-wide text-ivory transition-all duration-200 hover:border-ivory hover:bg-ivory hover:text-ink active:scale-[0.98];
+}
