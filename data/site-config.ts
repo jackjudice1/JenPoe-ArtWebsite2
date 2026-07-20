@@ -21,10 +21,10 @@ export const siteConfig = {
     facebook: "https://www.facebook.com/www.jenniferpoe.net/",
   },
   nav: [
-    { label: "Shop All", href: "/shop" },
+    { label: "About", href: "/about" },
     { label: "Art Prints", href: "/art-prints" },
     { label: "Mahjong Mats", href: "/mahjong" },
-    { label: "About", href: "/about" },
+    { label: "Shop All", href: "/shop" },
     { label: "Contact", href: "/contact" },
   ],
   footerLinks: {
@@ -46,7 +46,7 @@ export const siteConfig = {
     ],
   },
   hero: {
-    eyebrow: "Baton Rouge studio, worldwide shipping",
+    eyebrow: "Live Life, Love Art",
     headline: "Art for your walls. Tiles for your table.",
     body:
       "We paint in small batches and print even smaller ones — then take the same palette to the mahjong table with mats cut, bound, and stitched by hand.",
