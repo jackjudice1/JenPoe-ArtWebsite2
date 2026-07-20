@@ -17,7 +17,7 @@ export default function InstagramGallery() {
       <AnimatedReveal className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="eyebrow">In the wild</p>
-          <h2 className="mt-3 font-display text-4xl leading-tight">@lacquerandivory</h2>
+          <h2 className="mt-3 font-display text-4xl leading-tight">@jenniferpoeartist</h2>
         </div>
         <a
           href={siteConfig.social.instagram}
