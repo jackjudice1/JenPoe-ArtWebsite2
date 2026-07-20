@@ -3,12 +3,12 @@ import { siteConfig } from "@/data/site-config";
 import AnimatedReveal from "./AnimatedReveal";
 
 const shots = [
-  "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1611891487122-207579d67d98?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?q=80&w=600&auto=format&fit=crop",
+  "https://www.instagram.com/p/Da5QRkOso_6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "https://www.instagram.com/p/Da0FdxHMdfL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "https://www.instagram.com/p/Daz_8Y1M-T-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "https://www.instagram.com/p/DZqWqe1TUVC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "https://www.instagram.com/p/DZpZgDVsNSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "https://www.instagram.com/p/DTrH6RtFCc6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
 ];
 
 export default function InstagramGallery() {
