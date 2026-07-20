@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { siteConfig } from "@/data/site-config";
 import { useCart } from "@/lib/cart-context";
@@ -12,13 +13,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-ivory/90 backdrop-blur">
       <div className="mx-auto flex max-w-content items-center justify-between px-5 py-4 sm:px-8">
-        <Link href="/" className="flex items-center gap-2 font-display text-xl font-medium">
-          <svg width="30" height="30" viewBox="0 0 28 28" aria-hidden="true" className="shrink-0">
-            <ellipse cx="14" cy="14" rx="11" ry="9" fill="#E8A0B4" opacity="0.55" />
-            <ellipse cx="17" cy="11" rx="6" ry="5" fill="#C6A15B" opacity="0.6" />
-            <ellipse cx="10" cy="17" rx="5" ry="4" fill="#1F6B54" opacity="0.45" />
-          </svg>
-          {siteConfig.brand.name}
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo-header.png"
+            alt={siteConfig.brand.name}
+            width={1389}
+            height={428}
+            priority
+            className="h-11 w-auto"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
