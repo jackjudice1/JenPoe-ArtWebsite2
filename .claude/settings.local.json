@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p paintings)",
+      "Bash(mv \"Jen Poe Art 1.png\" \"paintings/forest-glade.png\")",
+      "Bash(mv \"Screenshot 2026-07-19 at 9.21.08 PM.png\" \"paintings/blue-dapple-abstract.png\")",
+      "Bash(mv \"Screenshot 2026-07-19 at 9.22.43 PM.png\" \"paintings/bluebird-branches.png\")",
+      "Bash(mv \"Screenshot 2026-07-19 at 9.24.21 PM.png\" \"paintings/confetti-abstract.png\")"
     ]
   }
 }

@@ -3,8 +3,8 @@
 
 export const siteConfig = {
   brand: {
-    name: "Lacquer & Ivory",
-    shortName: "L&I",
+    name: "Art by Jen Poe",
+    shortName: "Jen Poe",
     tagline: "Original art and hand-finished mahjong mats, made to be lived with.",
     description:
       "Lacquer & Ivory is a small studio making premium art prints and custom mahjong mats — bold color, real materials, no two runs quite the same.",
