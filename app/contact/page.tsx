@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with the Lacquer & Ivory studio.",
+  description: "Get in touch with Jennifer Poe.",
 };
 
 export default function ContactPage() {
