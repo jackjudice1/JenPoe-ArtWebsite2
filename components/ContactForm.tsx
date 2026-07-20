@@ -17,6 +17,8 @@ export default function ContactForm() {
   const [form, setForm] = useState<FormState>(initialState);
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, string>>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState("");
 
   function validate(): boolean {
     const next: Partial<Record<keyof FormState, string>> = {};
@@ -28,12 +30,25 @@ export default function ContactForm() {
     return Object.keys(next).length === 0;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!validate()) return;
-    // Placeholder — wire this up to your email service (e.g. Resend, Formspree,
-    // or a serverless route that emails siteConfig.business.email).
-    setSubmitted(true);
+
+    setSending(true);
+    setSendError("");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error("Request failed");
+      setSubmitted(true);
+    } catch {
+      setSendError("Something went wrong sending your message. Please try again.");
+    } finally {
+      setSending(false);
+    }
   }
 
   if (submitted) {
@@ -93,8 +108,10 @@ export default function ContactForm() {
         />
       </Field>
 
-      <button type="submit" className="btn-primary">
-        Send message
+      {sendError && <p className="text-xs text-lacquer-deep">{sendError}</p>}
+
+      <button type="submit" className="btn-primary disabled:cursor-not-allowed disabled:opacity-60" disabled={sending}>
+        {sending ? "Sending…" : "Send message"}
       </button>
 
       <style jsx>{`
